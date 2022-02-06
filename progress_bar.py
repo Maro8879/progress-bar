@@ -10,9 +10,9 @@ def progress_bar(data, process=None, cls=True, color='92'):
     for elem in data:
         # process
         process(elem) if process is not None else None
+        # loading bar
         elem_counter += 1
         percent = elem_counter/len(data) * 100
-        # loading bar
         system('cls' if name == 'nt' else 'clear') if cls is True else ''
         print(f'\033[1;{color}m{percent:.2f}% | [{"█" * floor(percent) + "░" * int(100 - floor(percent))}]\033[0;0m')
 
