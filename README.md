@@ -1,4 +1,4 @@
 # progress-bar
 
-The progress bar allows us to observe ongoing changes in our program.
+The progress bar is part of the graphical user interface. Its purpose is to present the progress of a specific activity performed by a computer program.
 If you want to use my code feel free!
